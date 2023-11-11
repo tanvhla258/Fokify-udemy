@@ -17,7 +17,7 @@ class RecipeView extends View {
     </figure>
     
     <div class="recipe__details">
-    <div style="margin-left:20px" class="recipe__info">
+    <div style="margin-left:40px" class="recipe__info">
     <svg class="recipe__info-icon">
     <use href="${icons}#icon-clock"></use>
     </svg>
