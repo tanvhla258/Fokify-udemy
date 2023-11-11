@@ -17,7 +17,7 @@ class RecipeView extends View {
     </figure>
     
     <div class="recipe__details">
-    <div class="recipe__info">
+    <div style="margin-left:20px" class="recipe__info">
     <svg class="recipe__info-icon">
     <use href="${icons}#icon-clock"></use>
     </svg>
@@ -130,9 +130,10 @@ class RecipeView extends View {
 
   addHandlerBookMark(handler) {
     this._parentElement.addEventListener('click', function (e) {
-      const btn = e.target.closest('.btn--bookmark');
-      if (!btn) return;
-      handler();
+      // const btn = e.target.closest('.btn--bookmark');
+      // if (!btn) return;
+      // handler();
+      return;
     });
   }
 }
